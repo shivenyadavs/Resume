@@ -99,3 +99,12 @@ li a{
     .dropdown:focus-within .dropdown-list {
       display: block;
 }
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: none; 
+    }
+
+    #horibar {
+        display: block; 
+    }
+}
